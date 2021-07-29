@@ -1,0 +1,21 @@
+.title {
+  font: normal normal normal 3rem/3.1rem Georgia;
+  letter-spacing: -0.6px;
+  text-transform: capitalize;
+  text-align: left;
+
+  &-center {
+    text-align: center;
+  }
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.sub-title {
+  text-align: left;
+  font: normal normal normal 2.5rem/3.1rem Arial;
+  letter-spacing: -0.5px;
+  text-transform: capitalize;
+}

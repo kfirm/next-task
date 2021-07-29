@@ -1,0 +1,12 @@
+$ratingStarSize: 2rem;
+
+.MovieRating {
+  line-height: $ratingStarSize;
+  margin: 10px 0;
+
+  .star-icon {
+    width: $ratingStarSize;
+    height: $ratingStarSize;
+    margin-right: 1rem;
+  }
+}
