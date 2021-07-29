@@ -1,0 +1,24 @@
+.MovieShowCase {
+  inset: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #000000C4 0 0 no-repeat padding-box;
+
+  .movie-details {
+    width: 85%;
+    height: 70%;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+
+  }
+
+  @media only screen and (max-width: 900px) {
+    .movie-details {
+      width: 100%;
+      height: auto;
+      margin: 20px;
+      padding: 20px 0;
+    }
+  }
+
+}

@@ -1,0 +1,19 @@
+.Footer {
+  background: #000;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+
+  > * {
+    margin: 1rem auto;
+  }
+
+  &-n-logo {
+    background-image: url("../../assets/logo/next-single-n.svg");
+    width: 40px;
+    height: 40px;
+  }
+
+  &-media {
+    width: 25rem;
+  }
+}
